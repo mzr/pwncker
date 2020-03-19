@@ -7,5 +7,6 @@ Disables ASLR globally and enables it after container shutdown.
 Mounts current directory into `/dir`.
 
 Convenient symbolic link:
-`ln -s run.sh $HOME/.local/bin/pwncker`
+`ln -s run.sh $HOME/.local/bin/pwncker1604`
 
+Then run with `pwncker1604`

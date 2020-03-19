@@ -1,2 +1,2 @@
 build:
-	docker build -t pwncker .
+	docker build -t pwncker1604 .
