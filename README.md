@@ -9,3 +9,4 @@ Mounts current directory into `/dir`.
 Convenient symbolic link:
 `ln -s run.sh $HOME/.local/bin/pwncker`
 
+Then run with `pwncker`
