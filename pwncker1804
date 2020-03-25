@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo 0 | sudo tee /proc/sys/kernel/randomize_va_space &&
-docker run --rm --cap-add=SYS_PTRACE -it \
-		   -v $(pwd):/dir \
-		   $* \
-           pwncker:18.04
-
-echo 2 | sudo tee /proc/sys/kernel/randomize_va_space
