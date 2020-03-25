@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+# Base image is set by Makefile
 
 # Set the locale
 RUN apt-get update \
